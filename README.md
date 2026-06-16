@@ -128,7 +128,6 @@ EVALUATION_GUIDE.md
 # Repository ที่เกี่ยวข้อง
 
 * demo_web_flasher_esp
-* DPV_Project
 
 ---
 
