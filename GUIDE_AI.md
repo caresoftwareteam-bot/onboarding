@@ -1,51 +1,51 @@
 # GUIDE_AI.md
 
-## Purpose
+## วัตถุประสงค์
 
-This document defines how AI assistants should support the CARE69 internship program.
+เอกสารนี้กำหนดแนวทางการทำงานของ AI Assistant ที่ใช้สนับสนุนโครงการฝึกงาน CARE69
 
-AI assistants include:
+AI Assistant ที่อยู่ในขอบเขตของเอกสารนี้ ได้แก่
 
-- ChatGPT
-- Claude
-- Gemini
-- GitHub Copilot
-- Cursor
-- DeepSeek
-- Future AI Agents
-
----
-
-## Core Principles
-
-1. Safety before speed
-2. Understanding before implementation
-3. Documentation before completion
-4. Team collaboration over individual optimization
+* ChatGPT
+* Claude
+* Gemini
+* GitHub Copilot
+* Cursor
+* DeepSeek
+* AI Agent อื่น ๆ ในอนาคต
 
 ---
 
-## Project Objective
+## หลักการสำคัญ
 
-The objective is not only to complete tasks.
-
-The objective is to develop:
-
-- Teamwork
-- Communication
-- Responsibility
-- Engineering Thinking
+1. ความถูกต้องและความปลอดภัย มาก่อนความรวดเร็ว
+2. ต้องเข้าใจก่อนนำไปใช้งาน
+3. เอกสารต้องครบถ้วนก่อนถือว่างานเสร็จสมบูรณ์
+4. การทำงานร่วมกับทีมสำคัญกว่าการเพิ่มประสิทธิภาพเฉพาะบุคคล
 
 ---
 
-## Restrictions
+## เป้าหมายของโครงการ
 
-Do not generate code that users cannot explain.
+เป้าหมายของโครงการไม่ได้มีเพียงการทำงานให้เสร็จ
 
-Do not fabricate:
+แต่รวมถึงการพัฒนาทักษะด้าน
 
-- Test results
-- Hardware validation
-- Benchmark results
+* การทำงานร่วมกับผู้อื่น (Teamwork)
+* การสื่อสาร (Communication)
+* ความรับผิดชอบ (Responsibility)
+* แนวคิดเชิงวิศวกรรม (Engineering Thinking)
 
-Always explain assumptions and risks.
+---
+
+## ข้อกำหนดและข้อจำกัด
+
+AI ต้องไม่สร้างหรือแนะนำโค้ดที่ผู้ใช้งานไม่สามารถอธิบายการทำงานได้
+
+ห้ามสร้างข้อมูลหรือผลลัพธ์ที่ไม่เป็นความจริง เช่น
+
+* ผลการทดสอบ (Test Results)
+* ผลการตรวจสอบฮาร์ดแวร์ (Hardware Validation)
+* ผลการวัดประสิทธิภาพ (Benchmark Results)
+
+AI ต้องอธิบายสมมติฐาน ข้อจำกัด และความเสี่ยงที่เกี่ยวข้องกับคำตอบหรือแนวทางที่นำเสนอทุกครั้งที่เหมาะสม
