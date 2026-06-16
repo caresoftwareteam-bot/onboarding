@@ -13,6 +13,8 @@ Repository นี้จัดทำขึ้นเพื่อใช้เป็
 * Responsible AI Usage
 * Engineering Mindset
 
+เอกสารทั้งหมดถูกจัดทำขึ้นเพื่อสร้างพื้นฐานร่วมกันก่อนเริ่มปฏิบัติงานจริง ทั้งในด้านเทคนิค กระบวนการพัฒนา และการทำงานร่วมกับผู้อื่น
+
 ---
 
 # เอกสาร
@@ -27,7 +29,6 @@ Repository นี้จัดทำขึ้นเพื่อใช้เป็
 * Branch Management
 * Commit Message Standard
 * Pull Request Workflow
-* Merge Workflow
 * Release Workflow
 
 ไฟล์:
@@ -40,7 +41,7 @@ GIT_HANDBOOK.md
 
 ## AI Guideline
 
-แนวทางการใช้ AI เพื่อสนับสนุนการพัฒนาซอฟต์แวร์
+แนวทางการใช้ AI เพื่อสนับสนุนการพัฒนาซอฟต์แวร์อย่างมีความรับผิดชอบ
 
 เนื้อหาประกอบด้วย
 
@@ -69,7 +70,6 @@ AI_GUIDELINE.md
 * Documentation Standard
 * Git Workflow
 * Project Rules
-* AI Restrictions
 
 ไฟล์:
 
@@ -86,7 +86,7 @@ GUIDE_AI.md
 เนื้อหาประกอบด้วย
 
 * เป้าหมายการฝึกงาน
-* โครงสร้างการฝึกงาน
+* แนวทางการทำงาน
 * Sprint และ Project
 * Deliverables
 * Definition of Done
@@ -122,101 +122,16 @@ EVALUATION_GUIDE.md
 
 ---
 
-# โครงสร้างการฝึกงาน
-
-## Phase 1 : Foundation Sprint
-
-ระยะเวลา
-
-17–24 มิถุนายน 2569
-
-Project
-
-```text
-ESP32 Web Flasher
-```
-
-วัตถุประสงค์
-
-ไม่ได้วัดความสามารถด้าน Frontend
-
-แต่ใช้เป็น Project กลางเพื่อประเมิน
-
-* Teamwork
-* Communication
-* Git Workflow
-* Documentation
-* AI Usage
-* Problem Solving
-* Responsibility
-
-สิ่งที่ต้องส่งมอบ
-
-* Source Code
-* Pull Request
-* README
-* Documentation
-* Task Tracking
-* Sprint Demo
-
-Definition of Done
-
-* Clone Project ได้
-* Build Project ได้
-* Run Project ได้
-* Flash ESP32 ได้จริง (Bonus Goal)
-* README อัปเดต
-* Pull Request ผ่าน Review
-* Demo ได้
-
----
-
-## Phase 2 : Specialization
-
-หลังจากจบ Foundation Sprint
-
-นักศึกษาจะเข้าสู่สายงานเฉพาะทางตามความเหมาะสมของโครงการ
-
-### Embedded
-
-* ESP32
-* STM32
-* CAN
-* Linux
-* Firmware
-
-### Data Science
-
-* Data Collection
-* Analysis
-* Dashboard
-* AI
-
-### Electronics
-
-* Assembly
-* Testing
-* Circuit
-
----
-
 # สำหรับนักศึกษาฝึกงาน
 
 ก่อนเริ่มโครงการ กรุณาศึกษาเอกสารตามลำดับดังนี้
 
-1. GIT_HANDBOOK.md
-2. AI_GUIDELINE.md
-3. INTERNSHIP_GUIDE.md
-4. EVALUATION_GUIDE.md
+1. Git Handbook
+2. AI Guideline
+3. Internship Guide
+4. Evaluation Guide
 
-หลังจากศึกษาเอกสารครบแล้ว
-
-* Clone Repository ของโครงการที่ได้รับมอบหมาย
-* เข้าร่วม Sprint Planning
-* ปฏิบัติตาม Git Workflow
-* อัปเดตเอกสารที่เกี่ยวข้อง
-* เปิด Pull Request
-* เข้าร่วม Code Review
+หลังจากศึกษาเอกสารครบแล้ว ให้ Clone Repository ของโครงการที่ได้รับมอบหมายและเริ่มดำเนินงานตาม Sprint Plan
 
 ---
 
@@ -231,49 +146,7 @@ Definition of Done
 * การเรียนรู้และพัฒนาตนเอง
 * ผลลัพธ์ของงาน
 
-การใช้ AI สามารถทำได้
-
-แต่ผู้พัฒนาต้องสามารถอธิบายสิ่งที่ตนเองส่งมอบได้
-
-เป้าหมายของโครงการไม่ได้มีเพียงการเขียนโค้ดให้สำเร็จ
-
-แต่รวมถึงการพัฒนาทักษะการทำงานร่วมกับผู้อื่นในสภาพแวดล้อมการพัฒนาซอฟต์แวร์จริง
-
----
-
-# สภาพแวดล้อมการฝึกงาน
-
-## GitHub
-
-ใช้เป็น
-
-Training Environment
-
-สำหรับ
-
-* การฝึกงาน
-* การเรียนรู้ Git Workflow
-* การจัดเก็บเอกสาร
-* การพัฒนาโครงการตัวอย่าง
-
-Repository ตัวอย่าง
-
-```text
-DEMO_WEB_FLASHER_ESP
-```
-
----
-
-## GitLab
-
-ใช้สำหรับ
-
-* พนักงาน
-* Source Code จริง
-* Firmware จริง
-* งานวิจัยจริง
-
-นักศึกษาฝึกงานไม่สามารถเข้าถึงได้
+การใช้ AI สามารถทำได้ แต่ผู้พัฒนาต้องสามารถอธิบายสิ่งที่ตนเองส่งมอบได้
 
 ---
 
